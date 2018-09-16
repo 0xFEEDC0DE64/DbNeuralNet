@@ -1,5 +1,4 @@
-#ifndef INEURON_H
-#define INEURON_H
+#pragma once
 
 #include "ineuronsignal.h"
 #include "ineuronreceptor.h"
@@ -20,5 +19,3 @@ public:
     virtual NeuralFactor *bias() = 0;
     virtual const NeuralFactor *bias() const = 0;
 };
-
-#endif // INEURON_H

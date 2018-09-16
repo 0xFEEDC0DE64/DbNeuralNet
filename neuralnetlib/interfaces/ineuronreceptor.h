@@ -1,5 +1,4 @@
-#ifndef INEURONRECEPTOR_H
-#define INEURONRECEPTOR_H
+#pragma once
 
 template <class Key, class T> class QMap;
 
@@ -12,5 +11,3 @@ public:
     virtual QMap<INeuronSignal *, NeuralFactor *> &input() = 0;
     virtual const QMap<INeuronSignal *, NeuralFactor *> &input() const = 0;
 };
-
-#endif // INEURONRECEPTOR_H

@@ -1,5 +1,4 @@
-#ifndef NEURALFACTOR_H
-#define NEURALFACTOR_H
+#pragma once
 
 #include <QObject>
 #include <qglobal.h>
@@ -32,5 +31,3 @@ private:
     qreal m_weight;
     qreal m_delta;
 };
-
-#endif // NEURALFACTOR_H

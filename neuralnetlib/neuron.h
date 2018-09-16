@@ -1,5 +1,4 @@
-#ifndef NEURON_H
-#define NEURON_H
+#pragma once
 
 #include <QObject>
 #include <QMap>
@@ -55,5 +54,3 @@ private:
     qreal m_error;
     NeuralFactor *m_bias;
 };
-
-#endif // NEURON_H

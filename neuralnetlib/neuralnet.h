@@ -1,5 +1,4 @@
-#ifndef NEURALNET_H
-#define NEURALNET_H
+#pragma once
 
 #include <QObject>
 
@@ -48,5 +47,3 @@ private:
     INeuralLayer *m_hiddenLayer;
     INeuralLayer *m_outputLayer;
 };
-
-#endif // NEURALNET_H

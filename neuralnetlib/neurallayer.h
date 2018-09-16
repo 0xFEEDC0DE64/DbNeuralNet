@@ -1,5 +1,4 @@
-#ifndef NEURALLAYER_H
-#define NEURALLAYER_H
+#pragma once
 
 #include <QObject>
 #include <QList>
@@ -29,5 +28,3 @@ private:
     NeuralNet *m_neuralNet;
     QList<INeuron *> m_neurons;
 };
-
-#endif // NEURALLAYER_H

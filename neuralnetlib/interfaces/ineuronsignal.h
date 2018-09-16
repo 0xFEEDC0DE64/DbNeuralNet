@@ -1,5 +1,4 @@
-#ifndef INEURONSIGNAL_H
-#define INEURONSIGNAL_H
+#pragma once
 
 #include <qglobal.h>
 
@@ -9,5 +8,3 @@ public:
     virtual qreal output() const = 0;
     virtual void setOutput(qreal output) = 0;
 };
-
-#endif // INEURONSIGNAL_H

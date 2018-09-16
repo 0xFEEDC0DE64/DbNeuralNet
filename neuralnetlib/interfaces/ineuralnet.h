@@ -1,5 +1,4 @@
-#ifndef INEURALNET_H
-#define INEURALNET_H
+#pragma once
 
 #include <qglobal.h>
 
@@ -19,5 +18,3 @@ public:
     virtual const INeuralLayer *hiddenLayer() const = 0;
     virtual const INeuralLayer *outputLayer() const = 0;
 };
-
-#endif // INEURALNET_H
