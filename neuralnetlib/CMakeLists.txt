@@ -6,6 +6,11 @@ set(HEADERS
     neurallayer.h
     neuralnet.h
     neuron.h
+    interfaces/ineurallayer.h
+    interfaces/ineuralnet.h
+    interfaces/ineuron.h
+    interfaces/ineuronreceptor.h
+    interfaces/ineuronsignal.h
 )
 
 set(SOURCES
