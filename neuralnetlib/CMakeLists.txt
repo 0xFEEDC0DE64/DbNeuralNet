@@ -1,5 +1,3 @@
-project(neuralnetlib)
-
 set(HEADERS
     debug.h
     neuralfactor.h
@@ -21,7 +19,7 @@ set(SOURCES
     neuron.cpp
 )
 
-add_library(neuralnetlib ${HEADERS} ${SOURCES})
+add_library(neuralnetlib SHARED ${HEADERS} ${SOURCES})
 
 target_compile_definitions(neuralnetlib PRIVATE NEURALNETLIB_LIBRARY)
 
