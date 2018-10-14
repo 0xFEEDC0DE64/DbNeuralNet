@@ -26,3 +26,5 @@ target_compile_definitions(neuralnetlib PRIVATE NEURALNETLIB_LIBRARY)
 target_link_libraries(neuralnetlib Qt5::Core)
 
 target_include_directories(neuralnetlib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+
+add_dependencies(neuralnet neuralnetlib)
