@@ -9,6 +9,6 @@ set(SOURCES
 
 add_executable(neuralnetdemo ${HEADERS} ${SOURCES})
 
-target_link_libraries(neuralnetdemo Qt5::Core neuralnetlib)
+target_link_libraries(neuralnetdemo stdc++ Qt5::Core neuralnetlib)
 
 add_dependencies(neuralnet neuralnetdemo)
